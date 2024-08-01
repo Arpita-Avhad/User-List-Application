@@ -1,0 +1,101 @@
+.App {
+    font-family: Arial, sans-serif;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .company-logo {
+    width: 150px;
+    height: 150px;
+    border-radius: 0px;
+  }
+  .menu-icon {
+    display: flex;
+    flex-direction: column;
+    width: 30px;
+    height: 20px;
+    justify-content: space-between;
+    cursor: pointer;
+    color: red;
+  }
+  
+  .menu-icon div {
+    width: 100%;
+    height: 4px;
+    background-color: red;
+  }
+  
+  .header-content {
+    
+    margin: 24px 0;
+  }
+  
+  .filters {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .filter-icon {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    background-color: red;
+    color: red;
+    background: none;
+    
+  }
+  
+  .filters select {
+    padding: 5px;
+    
+    
+  }
+  
+  .sort-icon {
+    display: inline-block;
+    margin-left: 5px;
+  }
+  
+  .up-arrow {
+    color: grey; /* Red color for sorting arrows */
+  }
+  .down-arrow {
+    color: red; /* Red color for sorting arrows */
+  }
+  /*
+  table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 2px solid black; /* Black border for the table */
+ /* border-radius: 10px; /* Circular corners for the table */
+ /* overflow: hidden; /* Ensures corners are rounded even with borders */
+/*}
+
+th, td {
+  border: 1px solid black; /* Black border for table cells */
+  /*padding: 8px;
+}
+  
+  th {
+    background-color: #f4f4f4;
+    cursor: pointer;
+  }
+  
+  td img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+  
+  .table-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+  */
