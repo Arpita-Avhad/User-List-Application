@@ -108,7 +108,7 @@ const UserList = () => {
         </div>
       </div>
       
-      // It will Automatically fetch more user data as the user scrolls down the page.
+      {/* It will Automatically fetch more user data as the user scrolls down the page. */}
       <InfiniteScroll
         dataLength={filteredUsers.length}
         next={fetchMoreData}
